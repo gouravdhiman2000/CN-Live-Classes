@@ -1,0 +1,53 @@
+.container{
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow = flex-direction flex-wrap  */
+    flex-flow: column wrap;
+    height: 100vh; 
+
+    /* justify-content = align flex items wrt to x-axis */
+    /* justify-content: space-around; */
+
+    /* align-content= align flex items wrt y-axis
+    it only works when you have multiple rows/columns
+    only works when property of flex-wrap = wrap */
+
+    /* align-content:space-around; */
+
+    /* align-content= align flex items wrt y-axis
+    property of flex-wrap= nowrap */
+    /* align-items: center;
+    height: 50vh;
+     */
+
+    /* gap - row-gap column-gap */
+      
+
+}
+
+.container .item{
+    width: 200px;
+    height: 100px;
+    background-color: darkblue;
+    color: white;
+    margin: 40px 10px;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+.item-1{
+    /* by default order- zero */
+    order: 1;
+    flex-grow: 2;
+}
+
+.item-3{
+    order: 1;
+}
+
+.item-6{
+    /* by default flex-grow- zero */
+    flex-grow: 1;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href="#home">Home</a>
+             <a href="#about-us">About Us</a>
+            <a href="#contact">Contact Us</a>   
+        </nav>     
+    </header>
+
+    <section>
+        <img class="banner" src="./assets/banner-img.jpg" alt="banner-img">
+    </section>
+
+    <section class="container">
+        <h1 id="about-us">About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum et officia atque cum, molestias quae impedit quisquam ab totam corporis ea sint harum placeat deleniti odio aliquid illo? Mollitia, cumque molestias? Quisquam neque repellendus vero temporibus earum odit perspiciatis porro adipisci quidem necessitatibus aut totam, velit quod odio aspernatur quos delectus omnis sunt quibusdam, officia obcaecati, enim molestias? Totam debitis architecto ipsam voluptatibus maiores nesciunt amet tempora quis possimus ab! At temporibus libero excepturi expedita quos odio ipsa neque praesentium reprehenderit nihil. Odit saepe delectus nisi recusandae, adipisci tempora quaerat quia aspernatur ratione id dolores dolor hic praesentium enim!</p>
+    </section>
+
+
+    <section class="container">
+        <h1 id="contact-us">Contact Us</h1>
+        <form action="" method="">
+            <div>
+            <label for="fname">First Name</label>
+            <input required maxlength="15" type="text" name="fname" id="fname" placeholder="Enter your First name">
+            </div>
+
+            <div>
+                <label for="lname">Last Name</label>
+            <input required type="text" name="lname" id="lname" placeholder="Enter your Last name">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <input required type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+
+            <div>
+                <label for="dob">Date of birth</label>
+            <input required type="date" name="dob" id="dob" placeholder="Enter DOB">
+            </div>
+
+            <div>
+                <label for="age">Age</label>
+                <input min="1" max="100" required type="number" name="age" id="age" placeholder="Enter age" value="18">
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <input required type="radio" name="gender" id="gender">Male
+                <input required type="radio" name="gender" id="gender">Female
+                <input required type="radio" name="gender" id="gender">Other
+            </div>
+
+            <div>
+                <label for="course">Select Course</label>
+                <input required type="checkbox" name="course" id="course">B.Tech
+                <input required type="checkbox" name="course" id="course">BBA
+                <input required type="checkbox" name="course" id="course">BSc
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>&copy 2024 Landing Page</p>
+    </footer>
+</body>
+</html>
